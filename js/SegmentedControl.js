@@ -65,7 +65,7 @@ const SegmentedControl = ({
         useNativeDriver: true,
       }).start();
     }
-  }, [animation, segmentWidth, selectedIndex]);
+  }, [animation, segmentWidth, selectedIndex,]);
 
   return (
     <View
